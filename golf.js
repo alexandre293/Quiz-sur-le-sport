@@ -3,17 +3,23 @@ const correctAnswers = {
     q2: 'e',
     q3: 'd',
     q4: 'e',
-    q21: 'e',
+    q5: 'e',
     q6: 'a',
     q7: 'a',
     q8: 'a',
     q9: 'e',
     q10: 'b',
+    q11: 'd',
+    q12: 'b',
+    q13: 'd',
+    q14: 'a',
+    q15: 'e',
     q16: 'e',
     q17: 'e',
     q18: 'e',
     q19: 'e',
     q20: 'e',
+
 };
 
 // Fonction pour vérifier les réponses

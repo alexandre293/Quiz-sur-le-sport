@@ -1,4 +1,4 @@
-const correctAnswers= {
+ const correctAnswers= {
     q1: 'a', // 🌳 Vrikshasana
     q2: 'b', // 🧘‍♂️ Ujjayi
     q3: 'c', // 🙏 Le divin en moi salue le divin en toi
