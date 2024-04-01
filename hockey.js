@@ -1,25 +1,25 @@
 const correctAnswers = {
-    q1: 'e',
-    q2: 'a',
+    q1: 'a',
+    q2: 'b',
     q3: 'c',
-    q4: 'e',
-    q5: 'b',
-    q6: 'e',
+    q4: 'b',
+    q5: 'c',
+    q6: 'a',
     q7: 'e',
-    q8: 'a',
+    q8: 'b',
     q9: 'c',
     q10: 'c',
     q11: 'e',
     q12: 'a',
     q13: 'e',
     q14: 'b',
-    q15: 'c',
+    q15: 'd',
     q16: 'b',
     q17: 'd',
-    q18: 'd',
+    q18: 'c',
     q19: 'a',
     q20: 'a',
-};
+}
 
 // Fonction pour vérifier les réponses
 function checkAnswers() {

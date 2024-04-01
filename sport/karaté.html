@@ -1,283 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="../style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karaté</title>
 </head>
+
 <body>
 
     <h1>Quiz sur le karaté</h1>
     <div id="quiz-container">
         <div class="question">
-    <!-- Question 1 -->
 
-        <p>1. Quelle est l'origine du karaté?</p>
-        <div class="options">
-            <input type="radio" name="q1" value="a"> <label for="q1a">Chine</label><br>
-            <input type="radio" name="q1" value="b"> <label for="q1b">Japon</label><br>
-            <input type="radio" name="q1" value="c"> <label for="q1c">Corée</label><br>
-            <input type="radio" name="q1" value="d"> <label for="q1d">Thaïlande</label><br>
-            <input type="radio" name="q1" value="e"> <label for="q1e">Inde</label><br>
-        </div>
-        <div id="q1-feedback"></div>
-    </div> 
-
-<!-- Question 2 -->
-<div class="question">
-    <p>2. Qui est considéré comme le fondateur du karaté moderne?</p>
-    <div class="options">
-        <input type="radio" name="q2" value="a"> <label for="q2a">Gichin Funakoshi</label><br>
-        <input type="radio" name="q2" value="b"> <label for="q2b">Bruce Lee</label><br>
-        <input type="radio" name="q2" value="c"> <label for="q2c">Masutatsu Oyama</label><br>
-        <input type="radio" name="q2" value="d"> <label for="q2d">Chojun Miyagi</label><br>
-        <input type="radio" name="q2" value="e"> <label for="q2e">Hironori Ohtsuka</label><br>
-    </div>
-    <div id="q2-feedback"></div>
-</div>
-
-<!-- Question 3 -->
-<div class="question">
-    <p>3. Qui a fondé le style de karaté connu sous le nom de "Goju-ryu"?</p>
-    <div class="options">
-        <input type="radio" name="q3" value="a"> <label for="q3a">Gichin Funakoshi</label><br>
-        <input type="radio" name="q3" value="b"> <label for="q3b">Hironori Ohtsuka</label><br>
-        <input type="radio" name="q3" value="c"> <label for="q3c">Mas Oyama</label><br>
-        <input type="radio" name="q3" value="d"> <label for="q3d">Chojun Miyagi</label><br>
-        <input type="radio" name="q3" value="e"> <label for="q3e">Kenwa Mabuni</label><br>
-    </div>
-    <div id="q3-feedback"></div>
-</div>
-
-<!-- Question 4 -->
-<div class="question">
-    <p>4. Quel est le nom du kata de karaté qui signifie "Poings de la tempête"?</p>
-    <div class="options">
-        <input type="radio" name="q4" value="a"> <label for="q4a">Heian Shodan</label><br>
-        <input type="radio" name="q4" value="b"> <label for="q4b">Bassai Dai</label><br>
-        <input type="radio" name="q4" value="c"> <label for="q4c">Empi</label><br>
-        <input type="radio" name="q4" value="d"> <label for="q4d">Gankaku</label><br>
-        <input type="radio" name="q4" value="e"> <label for="q4e">Tekki Shodan</label><br>
-    </div>
-    <div id="q4-feedback"></div>
-</div>
-
-<!-- Question 5 -->
-<div class="question">
-    <p>5. Quel style de karaté est caractérisé par une forte influence des techniques de saisie et de contrôle?</p>
-    <div class="options">
-        <input type="radio" name="q5" value="a"> <label for="q5a">Shotokan</label><br>
-        <input type="radio" name="q5" value="b"> <label for="q5b">Goju-ryu</label><br>
-        <input type="radio" name="q5" value="c"> <label for="q5c">Wado-ryu</label><br>
-        <input type="radio" name="q5" value="d"> <label for="q5d">Shito-ryu</label><br>
-        <input type="radio" name="q5" value="e"> <label for="q5e">Kyokushin</label><br>
-    </div>
-    <div id="q5-feedback"></div>
-</div>
-
-<!-- Question 6 -->
-<div class="question">
-    <p>6. Quelle est la traduction du terme "gi" utilisé en karaté?</p>
-    <div class="options">
-        <input type="radio" name="q6" value="a"> <label for="q6a">Ceinture</label><br>
-        <input type="radio" name="q6" value="b"> <label for="q6b">Discipline</label><br>
-        <input type="radio" name="q6" value="c"> <label for="q6c">Uniforme</label><br>
-        <input type="radio" name="q6" value="d"> <label for="q6d">Maître</label><br>
-        <input type="radio" name="q6" value="e"> <label for="q6e">Technique</label><br>
-    </div>
-    <div id="q6-feedback"></div>
-</div>
-
-<!-- Question 7 -->
-<div class="question">
-    <p>7. Quel est le nom du coup de pied circulaire latéral en karaté?</p>
-    <div class="options">
-        <input type="radio" name="q7" value="a"> <label for="q7a">Mawashi geri</label><br>
-        <input type="radio" name="q7" value="b"> <label for="q7b">Yoko geri kekomi</label><br>
-        <input type="radio" name="q7" value="c"> <label for="q7c">Mae geri</label><br>
-        <input type="radio" name="q7" value="d"> <label for="q7d">Ushiro geri</label><br>
-        <input type="radio" name="q7" value="e"> <label for="q7e">Kansetsu geri</label><br>
-    </div>
-    <div id="q7-feedback"></div>
-</div>
-
-<!-- Question 8 -->
-<div class="question">
-    <p>8. Quel est le nom de la position de départ dans laquelle les pratiquants de karaté se tiennent avant de débuter un kata?</p>
-    <div class="options">
-        <input type="radio" name="q8" value="a"> <label for="q8a">Heisoku dachi</label><br>
-        <input type="radio" name="q8" value="b"> <label for="q8b">Hachiji dachi</label><br>
-        <input type="radio" name="q8" value="c"> <label for="q8c">Musubi dachi</label><br>
-        <input type="radio" name="q8" value="d"> <label for="q8d">Sanchin dachi</label><br>
-        <input type="radio" name="q8" value="e"> <label for="q8e">Kiba dachi</label><br>
-    </div>
-    <div id="q8-feedback"></div>
-</div>
-
-<!-- Question 9 -->
-<div class="question">
-    <p>9. Qui est connu comme le "père du karaté moderne"?</p>
-    <div class="options">
-        <input type="radio" name="q9" value="a"> <label for="q9a">Gichin Funakoshi</label><br>
-        <input type="radio" name="q9" value="b"> <label for="q9b">Chojun Miyagi</label><br>
-        <input type="radio" name="q9" value="c"> <label for="q9c">Kenwa Mabuni</label><br>
-        <input type="radio" name="q9" value="d"> <label for="q9d">Jigoro Kano</label><br>
-        <input type="radio" name="q9" value="e"> <label for="q9e">Hironori Ohtsuka</label><br>
-    </div>
-    <div id="q9-feedback"></div>
-</div>
-
-<!-- Question 10 -->
-<div class="question">
-    <p>10. Quelle est la traduction du terme "sensei" en karaté?</p>
-    <div class="options">
-        <input type="radio" name="q10" value="a"> <label for="q10a">Étudiant</label><br>
-        <input type="radio" name="q10" value="b"> <label for="q10b">Assistant</label><br>
-        <input type="radio" name="q10" value="c"> <label for="q10c">Maître</label><br>
-        <input type="radio" name="q10" value="d"> <label for="q10d">Pratiquant</label><br>
-        <input type="radio" name="q10" value="e"> <label for="q10e">Instructeur</label><br>
-    </div>
-    <div id="q10-feedback"></div>
-</div>
-
-
-<!-- Question 11 -->
-<div class="question">
-    <p>11. Quel est le terme utilisé pour désigner les mouvements de base dans le karaté?</p>
-    <div class="options">
-        <input type="radio" name="q11" value="a"> <label for="q11a">Kata</label><br>
-        <input type="radio" name="q11" value="b"> <label for="q11b">Kumite</label><br>
-        <input type="radio" name="q11" value="c"> <label for="q11c">Kyusho</label><br>
-        <input type="radio" name="q11" value="d"> <label for="q11d">Kihon</label><br>
-        <input type="radio" name="q11" value="e"> <label for="q11e">Sensei</label><br>
-    </div>
-    <div id="q11-feedback"></div>
-</div>
-
-<!-- Question 12 -->
-<div class="question">
-    <p>12. Combien de ceintures de couleur y a-t-il dans le système de ceintures du karaté?</p>
-    <div class="options">
-        <input type="radio" name="q12" value="a"> <label for="q12a">3</label><br>
-        <input type="radio" name="q12" value="b"> <label for="q12b">5</label><br>
-        <input type="radio" name="q12" value="c"> <label for="q12c">7</label><br>
-        <input type="radio" name="q12" value="d"> <label for="q12d">10</label><br>
-        <input type="radio" name="q12" value="e"> <label for="q12e">12</label><br>
-    </div>
-    <div id="q12-feedback"></div>
-</div>
-
-<!-- Question 13 -->
-<div class="question">
-    <p>13. Quelle est la traduction littérale du mot "karaté"?</p>
-    <div class="options">
-        <input type="radio" name="q13" value="a"> <label for="q13a">Voie de la main vide</label><br>
-        <input type="radio" name="q13" value="b"> <label for="q13b">Art du combat</label><br>
-        <input type="radio" name="q13" value="c"> <label for="q13c">Esprit guerrier</label><br>
-        <input type="radio" name="q13" value="d"> <label for="q13d">Chemin de la paix</label><br>
-        <input type="radio" name="q13" value="e"> <label for="q13e">Force intérieure</label><br>
-    </div>
-    <div id="q13-feedback"></div>
-</div>
-
-<!-- Question 14 -->
-<div class="question">
-    <p>14. Quel est l'outil traditionnel d'entraînement utilisé dans le karaté pour frapper des cibles?</p>
-    <div class="options">
-        <input type="radio" name="q14" value="a"> <label for="q14a">Bo</label><br>
-        <input type="radio" name="q14" value="b"> <label for="q14b">Sai</label><br>
-        <input type="radio" name="q14" value="c"> <label for="q14c">Nunchaku</label><br>
-        <input type="radio" name="q14" value="d"> <label for="q14d">Makiwara</label><br>
-        <input type="radio" name="q14" value="e"> <label for="q14e">Tonfa</label><br>
-    </div>
-    <div id="q14-feedback"></div>
-</div>
-
-<!-- Question 15 -->
-<div class="question">
-    <p>15. Qui a introduit le karaté en Occident au début du XXe siècle?</p>
-    <div class="options">
-        <input type="radio" name="q15" value="a"> <label for="q15a">Gichin Funakoshi</label><br>
-        <input type="radio" name="q15" value="b"> <label for="q15b">Chojun Miyagi</label><br>
-        <input type="radio" name="q15" value="c"> <label for="q15c">Masutatsu Oyama</label><br>
-        <input type="radio" name="q15" value="d"> <label for="q15d">Jigoro
-            Kano</label><br>
-            <input type="radio" name="q15" value="e"> <label for="q15e">Gogen Yamaguchi</label><br>
+            <h2>1. Quel est le nom de la technique de karaté qui consiste à bloquer un coup avec les bras ou les jambes ?</h2>
+            <div class="options">
+                <input type="radio" name="q1" value="A"> <label for="q1a">A. 🥋🤜 Parry</label><br>
+                <input type="radio" name="q1" value="B"> <label for="q1b">B. 🥋🤜 Counter</label><br>
+                <input type="radio" name="q1" value="C"> <label for="q1c">C. 🥋🤜 Block</label><br>
+                <input type="radio" name="q1" value="D"> <label for="q1d">D. 🥋🤜 Strike</label><br>
+                <input type="radio" name="q1" value="E"> <label for="q1e">E. 🥋🤜 Punch</label><br>
             </div>
-            <div id="q15-feedback"></div>
+            
+            <h2>2. Quelle est la traduction littérale du mot "karaté" en japonais ?</h2>
+            <div class="options">
+                <input type="radio" name="q2" value="A"> <label for="q2a">A. 🥋📚 Voie de la main vide</label><br>
+                <input type="radio" name="q2" value="B"> <label for="q2b">B. 🥋📚 Voie du poing</label><br>
+                <input type="radio" name="q2" value="C"> <label for="q2c">C. 🥋📚 Voie du guerrier</label><br>
+                <input type="radio" name="q2" value="D"> <label for="q2d">D. 🥋📚 Voie de la force</label><br>
+                <input type="radio" name="q2" value="E"> <label for="q2e">E. 🥋📚 Voie du combat</label><br>
+            </div>
+            
+            <h2>3. Qui est le fondateur du karaté moderne ?</h2>
+            <div class="options">
+                <input type="radio" name="q3" value="A"> <label for="q3a">A. 🥋👤 Gichin Funakoshi</label><br>
+                <input type="radio" name="q3" value="B"> <label for="q3b">B. 🥋👤 Mas Oyama</label><br>
+                <input type="radio" name="q3" value="C"> <label for="q3c">C. 🥋👤 Jigoro Kano</label><br>
+                <input type="radio" name="q3" value="D"> <label for="q3d">D. 🥋👤 Morihei Ueshiba</label><br>
+                <input type="radio" name="q3" value="E"> <label for="q3e">E. 🥋👤 Bruce Lee</label><br>
+            </div>
+            
+            <h2>4. Quelle est la signification du terme "Sensei" en karaté ?</h2>
+            <div class="options">
+                <input type="radio" name="q4" value="A"> <label for="q4a">A. 🥋👤 Élève</label><br>
+                <input type="radio" name="q4" value="B"> <label for="q4b">B. 🥋👤 Assistant</label><br>
+                <input type="radio" name="q4" value="C"> <label for="q4c">C. 🥋👤 Guerrier</label><br>
+                <input type="radio" name="q4" value="D"> <label for="q4d">D. 🥋👤 Professeur</label><br>
+                <input type="radio" name="q4" value="E"> <label for="q4e">E. 🥋👤 Champion</label><br>
+            </div>
+            
+            <h2>5. Quelle est la technique de karaté qui consiste à frapper avec le tranchant de la main ?</h2>
+            <div class="options">
+                <input type="radio" name="q5" value="A"> <label for="q5a">A. 🥋👋 Chudan Uchi</label><br>
+                <input type="radio" name="q5" value="B"> <label for="q5b">B. 🥋👋 Shuto Uchi</label><br>
+                <input type="radio" name="q5" value="C"> <label for="q5c">C. 🥋👋 Mawashi Geri</label><br>
+                <input type="radio" name="q5" value="D"> <label for="q5d">D. 🥋👋 Mae Geri</label><br>
+                <input type="radio" name="q5" value="E"> <label for="q5e">E. 🥋👋 Ura Tsuki</label><br>
+            </div>
+            
+            <h2>6. Quel est le nom de la stance de base en karaté, caractérisée par une position large et stable ?</h2>
+            <div class="options">
+                <input type="radio" name="q6" value="A"> <label for="q6a">A. 🥋🦶 Zenkutsu Dachi</label><br>
+                <input type="radio" name="q6" value="B"> <label for="q6b">B. 🥋🦶 Kokutsu Dachi</label><br>
+                <input type="radio" name="q6" value="C"> <label for="q6c">C. 🥋🦶 Kiba Dachi</label><br>
+                <input type="radio" name="q6" value="D"> <label for="q6d">D. 🥋🦶 Neko Ashi Dachi</label><br>
+                <input type="radio" name="q6" value="E"> <label for="q6e">E. 🥋🦶 Heisoku Dachi</label><br>
+            </div>
+            
+            <h2>7. Quelle est la signification de "Kumite" en karaté ?</h2>
+            <div class="options">
+                <input type="radio" name="q7" value="A"> <label for="q7a">A. 🥋🥊 Forme</label><br>
+                <input type="radio" name="q7" value="B"> <label for="q7b">B. 🥋🥊 Combat libre</label><br>
+                <input type="radio" name="q7" value="C"> <label for="q7c">C. 🥋🥊 Méditation</label><br>
+                <input type="radio" name="q7" value="D"> <label for="q7d">D. 🥋🥊 Parade</label><br>
+                <input type="radio" name="q7" value="E"> <label for="q7e">E. 🥋🥊 Entraînement</label><br>
+            </div>
             
             </div>
-            <!-- Question 16 -->
-            <div class="question">
-                <p>16. Quel style de karaté est également connu sous le nom de "voie de la main vide"?</p>
-                <div class="options">
-                    <input type="radio" name="q16" value="a"> <label for="q16a">Shotokan</label><br>
-                    <input type="radio" name="q16" value="b"> <label for="q16b">Goju-ryu</label><br>
-                    <input type="radio" name="q16" value="c"> <label for="q16c">Wado-ryu</label><br>
-                    <input type="radio" name="q16" value="d"> <label for="q16d">Shito-ryu</label><br>
-                    <input type="radio" name="q16" value="e"> <label for="q16e">Kyokushin</label><br>
-                </div>
-                <div id="q16-feedback"></div>
+            <h2>8. Quelle est la technique de lutte qui consiste à placer un bras autour du cou de l'adversaire et à l'étrangler ?</h2>
+            <div class="options">
+                <input type="radio" name="q8" value="A"> <label for="q8a">A. 🥋👊 Suplex</label><br>
+                <input type="radio" name="q8" value="B"> <label for="q8b">B. 🥋👊 Kimura</label><br>
+                <input type="radio" name="q8" value="C"> <label for="q8c">C. 🥋👊 Guillotine</label><br>
+                <input type="radio" name="q8" value="D"> <label for="q8d">D. 🥋👊 Armbar</label><br>
+                <input type="radio" name="q8" value="E"> <label for="q8e">E. 🥋👊 Rear Naked Choke</label><br>
             </div>
-            <!-- Question 17 -->
-            <div class="question">
-                <p>17. Quel est le coup de pied le plus basique dans le karaté?</p>
-                <div class="options">
-                    <input type="radio" name="q17" value="a"> <label for="q17a">Mawashi geri (coup de pied circulaire)</label><br>
-                    <input type="radio" name="q17" value="b"> <label for="q17b">Mae geri (coup de pied direct)</label><br>
-                    <input type="radio" name="q17" value="c"> <label for="q17c">Yoko geri keage (coup de pied latéral montant)</label><br>
-                    <input type="radio" name="q17" value="d"> <label for="q17d">Ushiro geri (coup de pied arrière)</label><br>
-                    <input type="radio" name="q17" value="e"> <label for="q17e">Kansetsu geri (coup de pied rotatif)</label><br>
-                </div>
-                <div id="q17-feedback"></div>
+            
+            <h2>9. Dans la lutte, quel est le nom du mouvement qui consiste à renverser l'adversaire en lui passant un bras sous la jambe et en le projetant au sol ?</h2>
+            <div class="options">
+                <input type="radio" name="q9" value="A"> <label for="q9a">A. 🥋👊 Leg Sweep</label><br>
+                <input type="radio" name="q9" value="B"> <label for="q9b">B. 🥋👊 Hip Toss</label><br>
+                <input type="radio" name="q9" value="C"> <label for="q9c">C. 🥋👊 Fireman's Carry</label><br>
+                <input type="radio" name="q9" value="D"> <label for="q9d">D. 🥋👊 Arm Drag</label><br>
+                <input type="radio" name="q9" value="E"> <label for="q9e">E. 🥋👊 Leg Lace</label><br>
             </div>
-            <!-- Question 18 -->
-            <div class="question">
-                <p>18. Quel est le nom donné à la position de garde de base dans le karaté?</p>
-                <div class="options">
-                    <input type="radio" name="q18" value="a"> <label for="q18a">Zenkutsu dachi</label><br>
-                    <input type="radio" name="q18" value="b"> <label for="q18b">Kokutsu dachi</label><br>
-                    <input type="radio" name="q18" value="c"> <label for="q18c">Sanchin dachi</label><br>
-                    <input type="radio" name="q18" value="d"> <label for="q18d">Neko ashi dachi</label><br>
-                    <input type="radio" name="q18" value="e"> <label for="q18e">Heisoku dachi</label><br>
-                </div>
-                <div id="q18-feedback"></div>
+            
+            <h2>10. Quel est le nom de la discipline de lutte qui se pratique en équipe de 5 membres et qui permet les prises debout et au sol ?</h2>
+            <div class="options">
+                <input type="radio" name="q10" value="A"> <label for="q10a">A. 🥋👊 Lutte gréco-romaine</label><br>
+                <input type="radio" name="q10" value="B"> <label for="q10b">B. 🥋👊 Lutte libre olympique</label><br>
+                <input type="radio" name="q10" value="C"> <label for="q10c">C. 🥋👊 Lutte folklorique</label><br>
+                <input type="radio" name="q10" value="D"> <label for="q10d">D. 🥋👊 Lutte par équipes</label><br>
+                <input type="radio" name="q10" value="E"> <label for="q10e">E. 🥋👊 Lutte libre traditionnelle</label><br>
             </div>
-            <!-- Question 19 -->
-            <div class="question">
-                <p>19. Quel est le terme japonais pour désigner l'instructeur ou le professeur de karaté?</p>
-                <div class="options">
-                    <input type="radio" name="q19" value="a"> <label for="q19a">Sempai</label><br>
-                    <input type="radio" name="q19" value="b"> <label for="q19b">Shihan</label><br>
-                    <input type="radio" name="q19" value="c"> <label for="q19c">Kyoshi</label><br>
-                    <input type="radio" name="q19" value="d"> <label for="q19d">Sensei</label><br>
-                    <input type="radio" name="q19" value="e"> <label for="q19e">Renshi</label><br>
-                </div>
-                <div id="q19-feedback"></div>
+            
+            <h2>11. Quelle est la durée d'un combat de lutte libre olympique pour les hommes ?</h2>
+            <div class="options">
+                <input type="radio" name="q11" value="A"> <label for="q11a">A. 🥋👊 2 minutes</label><br>
+                <input type="radio" name="q11" value="B"> <label for="q11b">B. 🥋👊 3 minutes</label><br>
+                <input type="radio" name="q11" value="C"> <label for="q11c">C. 🥋👊 4 minutes</label><br>
+                <input type="radio" name="q11" value="D"> <label for="q11d">D. 🥋👊 5 minutes</label><br>
+                <input type="radio" name="q11" value="E"> <label for="q11e">E. 🥋👊 6 minutes</label><br>
             </div>
-            <!-- Question 20 -->
-            <div class="question">
-                <p>20. Quel est le nom du karatéka le plus célèbre qui est également connu sous le nom de "Dragon rouge"?</p>
-                <div class="options">
-                    <input type="radio" name="q20" value="a"> <label for="q20a">Mas
-                        Oyama</label><br>
-                        <input type="radio" name="q20" value="b"> <label for="q20b">Hironori Ohtsuka</label><br>
-                        <input type="radio" name="q20" value="c"> <label for="q20c">Bruce Lee</label><br>
-                        <input type="radio" name="q20" value="d"> <label for="q20d">Gogen Yamaguchi</label><br>
-                        <input type="radio" name="q20" value="e"> <label for="q20e">Masutatsu Oyama</label><br>
-                        </div>
-                        <div id="q20-feedback"></div>
-                        
-                        </div>
-                        <!-- Bouton de soumission -->
+            
+            <h2>12. Quel est le nom du mouvement de lutte où un lutteur tente de faire tomber son adversaire en le soulevant et en le retournant sur le dos ?</h2>
+            <div class="options">
+                <input type="radio" name="q12" value="A"> <label for="q12a">A. 🥋👊 Leg Sweep</label><br>
+                <input type="radio" name="q12" value="B"> <label for="q12b">B. 🥋👊 Fireman's Carry</label><br>
+                <input type="radio" name="q12" value="C"> <label for="q12c">C. 🥋👊 Hip Toss</label><br>
+                <input type="radio" name="q12" value="D"> <label for="q12d">D. 🥋👊 Suplex</label><br>
+                <input type="radio" name="q12" value="E"> <label for="q12e">E. 🥋👊 Arm Drag</label><br>
+            </div>
+            
+            <h2>13. Quel est le nom de la technique de lutte où un combattant saisit le bras de son adversaire et le tord derrière son dos ?</h2>
+            <div class="options">
+                <input type="radio" name="q13" value="A"> <label for="q13a">A. 🥋👊 Kimura</label><br>
+                <input type="radio" name="q13" value="B"> <label for="q13b">B. 🥋👊 Guillotine</label><br>
+                <input type="radio" name="q13" value="C"> <label for="q13c">C. 🥋👊 Rear Naked Choke</label><br>
+                <input type="radio" name="q13" value="D"> <label for="q13d">D. 🥋👊 Omoplata</label><br>
+                <input type="radio" name="q13" value="E"> <label for="q13e">E. 🥋 👊 Americana</label><br>
+            
+            </div> 
 
-    <button id="check-answers">Soumettre</button>
 
-    <button type="button" id="show-answers">Voir les réponses</button>
+<h2>14. Qui a remporté le titre de champion olympique de lutte libre dans la catégorie des 74 kg aux Jeux Olympiques de Rio en 2016 ?</h2>
+<div class="options">
+    <input type="radio" name="q14" value="A"> <label for="q14a">A. 🥋👊 Kyle Snyder</label><br>
+    <input type="radio" name="q14" value="B"> <label for="q14b">B. 🥋👊 Jordan Burroughs</label><br>
+    <input type="radio" name="q14" value="C"> <label for="q14c">C. 🥋👊 Abdulrashid Sadulaev</label><br>
+    <input type="radio" name="q14" value="D"> <label for="q14d">D. 🥋👊 Hassan Yazdani</label><br>
+    <input type="radio" name="q14" value="E"> <label for="q14e">E. 🥋👊 Frank Chamizo</label><br>
+</div>
 
-    <a class="button-back" href="../index.html">Retour</a>
-    <script src="../karaté.js"></script>
+<h2>15. Dans quel pays a-t-on retrouvé les premières traces historiques de la lutte ?</h2>
+<div class="options">
+    <input type="radio" name="q15" value="A"> <label for="q15a">A. 🥋👊 Grèce</label><br>
+    <input type="radio" name="q15" value="B"> <label for="q15b">B. 🥋👊 Inde</label><br>
+    <input type="radio" name="q15" value="C"> <label for="q15c">C. 🥋👊 Égypte</label><br>
+    <input type="radio" name="q15" value="D"> <label for="q15d">D. 🥋👊 Chine</label><br>
+    <input type="radio" name="q15" value="E"> <label for="q15e">E. 🥋👊 Japon</label><br>
+</div>
+
+<h2>16. Dans quel pays est originaire le judo ?</h2>
+<div class="options">
+    <input type="radio" name="q16" value="A"> <label for="q16a">A. 🥋👊 Japon</label><br>
+    <input type="radio" name="q16" value="B"> <label for="q16b">B. 🥋👊 Corée du Sud</label><br>
+    <input type="radio" name="q16" value="C"> <label for="q16c">C. 🥋👊 Chine</label><br>
+    <input type="radio" name="q16" value="D"> <label for="q16d">D. 🥋👊 Russie</label><br>
+    <input type="radio" name="q16" value="E"> <label for="q16e">E. 🥋👊 France</label><br>
+</div>
+
+<h2>17. Quel est le nom du fondateur du judo moderne ?</h2>
+<div class="options">
+    <input type="radio" name="q17" value="A"> <label for="q17a">A. 🥋👊 Kano Jigoro</label><br>
+    <input type="radio" name="q17" value="B"> <label for="q17b">B. 🥋👊 Bruce Lee</label><br>
+    <input type="radio" name="q17" value="C"> <label for="q17c">C. 🥋👊 Masahiko Kimura</label><br>
+    <input type="radio" name="q17" value="D"> <label for="q17d">D. 🥋👊 Helio Gracie</label><br>
+    <input type="radio" name="q17" value="E"> <label for="q17e">E. 🥋👊 Mitsuyo Maeda</label><br>
+</div>
+
+<h2>18. Quelle est la signification du mot "karaté" en japonais ?</h2>
+<div class="options">
+    <input type="radio" name="q18" value="A"> <label for="q18a">A. 🥋👊 Voie de la main vide</label><br>
+    <input type="radio" name="q18" value="B"> <label for="q18b">B. 🥋👊 Voie du samouraï</label><br>
+    <input type="radio" name="q18" value="C"> <label for="q18c">C. 🥋👊 Art du combat</label><br>
+    <input type="radio" name="q18" value="D"> <label for="q18d">D. 🥋👊 Technique de défense</label><br>
+    <input type="radio" name="q18" value="E"> <label for="q18e">E. 🥋👊 Esprit guerrier</label><br>
+</div>
+
+<h2>19. Quel est le nom de la technique de karaté qui consiste à bloquer une attaque avec les mains ou les bras ?</h2>
+<div class="options">
+    <input type="radio" name="q19" value="A"> <label for="q19a">A. 🥋👊 Kata</label><br>
+    <input type="radio" name="q19" value="B"> <label for="q19b">B. 🥋👊 Kumite</label><br>
+    <input type="radio" name="q19" value="C"> <label for="q19c">C. 🥋👊 Sensei</label><br>
+    <input type="radio" name="q19" value="D"> <label for="q19d">D. 🥋👊 Dojo</label><br>
+    <input type="radio" name="q19" value="E"> <label for="q19e">E. 🥋👊 Uke</label><br>
+</div>
+
+<h2>20. Dans quelle ville japonaise trouve-t-on le siège de la JKA (Japan Karate Association) ?</h2>
+<div class="options">
+    <input type="radio" name="q20" value="A"> <label for="q20a">A. 🥋👊 Tokyo</label><br>
+    <input type="radio" name="q20" value="B"> <label for="q20b">B. 🥋👊 Osaka</label><br>
+    <input type="radio" name="q20" value="C"> <label for="q20c">C. 🥋👊 Kyoto</label><br>
+    <input type="radio" name="q20" value="D"> <label for="q20d">D. 🥋👊 Nagoya</label><br>
+    <input type="radio" name="q20" value="E"> <label for="q20e">E. 🥋👊 Okinawa</label><br>
+</div>
+
+            <button id="check-answers">Soumettre</button>
+
+            <button type="button" id="show-answers">Voir les réponses</button>
+
+            <a class="button-back" href="../index.html">Retour</a>
+            <script src="../karaté.js"></script>
 
 </body>
+</div>  
+
+
 </html>
+
