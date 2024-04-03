@@ -1,5 +1,5 @@
 const correctAnswers = {
-    q1: 'a',
+    q1: 'b',
     q2: 'b',
     q3: 'c',
     q4: 'b',
@@ -11,14 +11,14 @@ const correctAnswers = {
     q10: 'c',
     q11: 'e',
     q12: 'a',
-    q13: 'e',
-    q14: 'b',
-    q15: 'd',
-    q16: 'b',
-    q17: 'd',
-    q18: 'c',
-    q19: 'a',
-    q20: 'a',
+    q13: 'd',
+    q14: 'a',
+    q15: 'b',
+    q16: 'a',
+    q17: 'b',
+    q18: 'b',
+    q19: 'd',
+    q20: 'e',
 }
 
 // Fonction pour vérifier les réponses

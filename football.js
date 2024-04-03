@@ -6,11 +6,11 @@ const correctAnswers = {
     q5: 'a', //  Question 5
     q6: 'a', //  Question 6
     q7: 'a', //  Question 7
-    q8: 'e', //  Question 8
+    q8: 'b', //  Question 8
     q9: 'a',  //  Question 9
     q10: 'c', // Question 10
     q11: 'a', // Question 11
-    q12: 'a', // Question 12
+    q12: 'b', // Question 12
     q13: 'b', // Question 13
     q14: 'a', // Question 14
     q15: 'b', // Question 15
