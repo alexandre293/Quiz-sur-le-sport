@@ -1,23 +1,23 @@
 const correctAnswers = {
-    q1: 'd', // Question 1
+    q1: 'a', // Question 1
     q2: 'b', // Question 2
     q3: 'e', // Question 3
     q4: 'e', // Question 4
     q5: 'c', // Question 5
-    q6: 'b', // Question 6
+    q6: 'a', // Question 6
     q7: 'a', // Question 7
     q8: 'b', // Question 8
     q9: 'e', // Question 9
     q10: 'a', // Question 10
     q11: 'c', // Question 11
-    q12: 'e', // Question 12
+    q12: 'a', // Question 12
     q13: 'd', // Question 13
     q14: 'a', // Question 14
     q15: 'a', // Question 15
-    q16: 'd', // Question 16
-    q17: 'd', // Question 17
-    q18: 'd', // Question 18
-    q19: 'a', // Question 19
+    q16: 'e', // Question 16
+    q17: 'c', // Question 17
+    q18: 'e', // Question 18
+    q19: 'd', // Question 19
     q20: 'd', // Question 20
 };
 

@@ -2,8 +2,8 @@ const correctAnswers = {
     q1: "a", // Belgique
     q2: "e", // Chris Hoy
     q3: "a", // Tour de France
-    q4: "a", // Paris-Roubaix
-    q5: "a", // Eddy Merckx
+    q4: "d", // Paris-Roubaix
+    q5: "c", // Eddy Merckx
     q6: "a", // Tour de France
     q7: "a", // Eddy Merckx
     q8: "a", // Tour de Flandres
@@ -13,11 +13,11 @@ const correctAnswers = {
     q12: "a", // Mont Ventoux
     q13: "a", // Tour de Californie
     q14: "a", // Critérium du Dauphiné
-    q15: "a", // Flèche Wallonne
+    q15: "b", // Flèche Wallonne
     q16: "a", // Giro d'Italia
-    q17: "a", // 3 414 km
-    q18: "a", // Tour de France
-    q19: "a", // Trouée d'Arenberg
+    q17: "b", // 3 414 km
+    q18: "b", // Tour de France
+    q19: "e", // Trouée d'Arenberg
     q20: "b"  // Alto de l'Angliru
 };
 

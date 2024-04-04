@@ -9,13 +9,13 @@ const correctAnswers = {
     q8: 'a', // Roger Bannister
     q9: 'a', // 100 mètres
     q10: 'c', // 50 mètres
-    q11: 'a', // Roger Federer
+    q11: 'c', // Roger Federer
     q12: 'a', // Brésil
     q13: 'a', // Eliud Kipchoge
     q14: 'e', // 9,29 mètres
     q15: 'a', // Javier Sotomayor
     q16: 'a', // 9,58 secondes
-    q17: 'a', // Michael Phelps
+    q17: 'c', // Michael Phelps
     q18: 'a', // Norvège
     q19: 'b', // Armand Duplantis
     q20: 'b', // Ashton Eaton
