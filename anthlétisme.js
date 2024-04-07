@@ -2,7 +2,7 @@ const correctAnswers = {
     q1: 'e',
     q2: 'c',
     q3: 'c',
-    q4: 'c',
+    q4: 'e',
     q5: 'e',
     q6: 'c',
     q7: 'b',
@@ -15,10 +15,10 @@ const correctAnswers = {
     q14: 'e',
     q15: 'e',
     q16: 'e',
-    q17: 'e',
+    q17: 'c',
     q18: 'e',
     q19: 'e',
-    q20: 'e',
+    q20: 'd',
 };
 
 // Fonction pour vérifier les réponses

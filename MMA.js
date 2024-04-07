@@ -1,24 +1,24 @@
 const correctAnswers = {
-    q1: 'b', // Question 1
-    q2: 'c', // Question 2
+    q1: 'a', // Question 1
+    q2: 'e', // Question 2
     q3: 'a', // Question 3
     q4: 'e', // Question 4
-    q5: 'a', // Question 5
-    q6: 'd', // Question 6
-    q7: 'c', // Question 7
-    q8: 'b', // Question 8
-    q9: 'd', // Question 9
-    q10: 'a', // Question 10
-    q11: 'a', // Question 11       
-    q12: 'b', // Question 12
-    q13: 'c', // Question 13
-    q14: 'd', // Question 14
-    q15: 'e', // Question 15
-    q16: 'c', // Question 16
+    q5: 'e', // Question 5
+    q6: 'a', // Question 6
+    q7: 'b', // Question 7
+    q8: 'a', // Question 8
+    q9: 'c', // Question 9
+    q10: 'd', // Question 10
+    q11: 'd', // Question 11       
+    q12: 'c', // Question 12
+    q13: 'e', // Question 13
+    q14: 'a', // Question 14
+    q15: 'c', // Question 15
+    q16: 'd', // Question 16
     q17: 'a', // Question 17
     q18: 'a', // Question 18
-    q19: 'a', // Question 19
-    q20: 'a', // Question 20         
+    q19: 'c', // Question 19
+    q20: 'd', // Question 20         
 };
 
 // Fonction pour vérifier les réponses

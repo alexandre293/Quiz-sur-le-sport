@@ -1,6 +1,6 @@
 const correctAnswers = {
     q1: 'b', // Question 1
-    q2: 'c', // Question 2
+    q2: 'b', // Question 2
     q3: 'b', // Question 3
     q4: 'b', // Question 4
     q5: 'b', // Question 5
@@ -8,17 +8,17 @@ const correctAnswers = {
     q7: 'e', // Question 7
     q8: 'c', // Question 8
     q9: 'd', // Question 9
-    q10: 'b', // Question 10
+    q10: 'c', // Question 10
     q11: 'b', // Question 11       
     q12: 'b', // Question 12
     q13: 'b', // Question 13
     q14: 'd', // Question 14
     q15: 'd', // Question 15
     q16: 'e', // Question 16
-    q17: 'c', // Question 17
-    q18: 'b', // Question 18
+    q17: '', // Question 17
+    q18: 'e', // Question 18
     q19: 'b', // Question 19
-    q20: 'b', // Question 20         
+    q20: 'a', // Question 20         
 };
 // Fonction pour vérifier les réponses
 function checkAnswers() {

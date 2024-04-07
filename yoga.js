@@ -2,11 +2,11 @@
     q1: 'a', // 🌳 Vrikshasana
     q2: 'b', // 🧘‍♂️ Ujjayi
     q3: 'c', // 🙏 Le divin en moi salue le divin en toi
-    q4: 'c', // 🧘‍♀️ Posture ou position
+    q4: 'a', // 🧘‍♀️ Posture ou position
     q5: 'a', // 🕉️ Son cosmique
     q6: 'a', // 🐕 Adho Mukha Svanasana
     q7: 'a', // 🌞 Surya Namaskar
-    q8: 'a', // 🧘‍♀️ Hatha Yoga
+    q8: 'c', // 🧘‍♀️ Hatha Yoga
     q9: 'a', // 🐍 Bhujangasana
     q10: 'b', // 🧘‍♂️ Pose du cadavre
     q11: 'a', // 🪑 Iyengar Yoga

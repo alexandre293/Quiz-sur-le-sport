@@ -3,21 +3,21 @@ const correctAnswers= {
     q2: 'a', // Question 2
     q3: 'b', // Question 3
     q4: 'c', // Question 4
-    q5: 'a', // Question 5
-    q6: 'b', // Question 6
+    q5: 'c', // Question 5
+    q6: 'a', // Question 6
     q7: 'c', // Question 7
-    q8: 'c', // Question 8
+    q8: 'e', // Question 8
     q9: 'b', // Question 9
     q10: 'd', // Question 10
-    q11: 'd', // Question 11
+    q11: 'b', // Question 11
     q12: 'd', // Question 12
     q13: 'a', // Question 13
-    q14: 'a', // Question 14
+    q14: 'c', // Question 14
     q15: 'a', // Question 15
     q16: 'a', // Question 16
     q17: 'c', // Question 17
     q18: 'd', // Question 18
-    q19: 'c', // Question 19
+    q19: 'a', // Question 19
     q20: 'a', // Question 20
 };
 

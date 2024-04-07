@@ -1,10 +1,10 @@
 const correctAnswers = {
     q1: 'a', // Question 1
-    q2: 'a', // Question 2
+    q2: 'c', // Question 2
     q3: 'a', // Question 3
     q4: 'a', // Question 4
     q5: 'a', // Question 5
-    q6: 'a', // Question 6
+    q6: 'b', // Question 6
     q7: 'a', // Question 7
     q8: 'a', // Question 8
     q9: 'a', // Question 9
