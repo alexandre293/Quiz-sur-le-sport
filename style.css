@@ -76,10 +76,15 @@ button {
 
 button:hover {
     background-color: #45a049;
+    
 }
 
 .button-back {
     position: fixed;
     right: 3%;
     bottom: 3vh;
+}
+
+.menuitem:hover {
+    scale: 1.2;
 }
